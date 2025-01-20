@@ -1,6 +1,5 @@
 .card {
   width: 540px;
-  font-family: "Inter", Arial, sans-serif;
 }
 
 .card__title {
@@ -21,6 +20,10 @@
   list-style-type: none;
   margin: 0 0 16px;
   display: flex;
+}
+
+.card__list-item:last-of-type {
+  margin: 0;
 }
 
 .card__list-divider {

@@ -1,5 +1,6 @@
 .header {
-  font-family: "Inter", Arial, sans-serif;
+  z-index: 1;
+  box-sizing: border-box;
   background-color: #ffffff;
   background-image: url(../images/background_header.svg);
   background-size: cover;
@@ -34,9 +35,11 @@
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
+  margin: 0;
 }
 
 .header__image {
+  z-index: -1;
   position: absolute;
   top: 124px;
   right: 5px;
